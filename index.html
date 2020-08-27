@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    
+    
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.min.js"></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.min.js"></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.sound.min.js"></script>
+ <script src="p5.play.js"></script>
+
+ 
+ <script src="https://www.gstatic.com/firebasejs/7.15.5/firebase-app.js"></script>
+ <script src="https://www.gstatic.com/firebasejs/7.15.5/firebase-auth.js"></script>
+ <script src="https://www.gstatic.com/firebasejs/7.15.5/firebase-database.js"></script>
+ <script src="https://www.gstatic.com/firebasejs/7.15.5/firebase-storage.js"></script>
+
+
+ <script>
+    // Your web app's Firebase configuration
+    var firebaseConfig = {
+      apiKey: "AIzaSyDFryzejxSYbxM9yLhHphBQzo3ZZR2Z6w4",
+      authDomain: "go-news-3c47d.firebaseapp.com",
+      databaseURL: "https://go-news-3c47d.firebaseio.com",
+      projectId: "go-news-3c47d",
+      storageBucket: "go-news-3c47d.appspot.com",
+      messagingSenderId: "337934705204",
+      appId: "1:337934705204:web:15d127c5ce6d9add4ba061"
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+    firebase.auth.Auth.Persistence.LOCAL;
+  </script>
+  
+</head>
+<body>
+
+    <script src = "Account.js"></script>
+</body>
+</html>
